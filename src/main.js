@@ -114,6 +114,7 @@ $(document).ready(function() {
 				}
 				let pokemon = jsonifiedResponse;
 				let moves = pokemon.moves;
+				$('#results').append(`<div><img href='${pokemon.sprites.front_default}'/></div>`);
 				if (moves) {
 					for (let move of moves) {
 						$('#results').append(`<div>${move.move.name}</div>`);
