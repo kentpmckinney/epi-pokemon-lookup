@@ -46,7 +46,8 @@ npm run test
 
 ## Deployment
 
-Run the command 'npm run build' to build a production version of the application under ./build
+Run the command 'npm run build' and deploy the files 'index.html' and 'bundle.js' in the root directory
+
 ## Technologies Used
 
 * JavaScript
