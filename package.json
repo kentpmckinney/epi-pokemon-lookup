@@ -1,7 +1,7 @@
 {
-  "name": "my-project",
+  "name": "epi-pokemon-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pokemon Lookup",
   "main": "main.js",
   "scripts": {
     "build": "webpack --mode development",
@@ -11,8 +11,8 @@
     "debug": "node --inspect node_modules/.bin/jest --runInBand"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Kent P. McKinney",
+  "license": "",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
@@ -28,12 +28,12 @@
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "4.39.3",
     "webpack-cli": "^3.3.8",
-    "webpack-dev-server": "^3.8.0"
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
     "dotenv": "^8.2.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.1",
     "popper.js": "^1.15.0"
   }
 }

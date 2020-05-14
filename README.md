@@ -1,56 +1,67 @@
-# All The API Calls!
+<!-- Category: Epicodus;HTML/CSS/JS -->
+# Pokemon lookup
 
-#### A single-page JavaScript app built with Webpack, to practice various types of API calls, 2/20/2020
+Pull information for a given pocket monster
 
-#### By **Kent P. McKinney and Winter A. Runion**
+https://github.com/kentpmckinney/epi-pokemon-api
 
-### Dev Notes/To Do
-* Bootstrap isn't working with webpack. I inserted it into the index as a CDN - we need to go back and fix that.
-* The custom fonts are currently just linked in the index head section. 
-  * Find out if it's best practice to link them, or to download them.
-  * If it's best practice to DL, figure out how webkit manages fonts. 
-  * We probably need an extra extension for that.
-* If we haven't already, install an extension for managing images. I don't think we have one now.  
+## Previewing this Project
 
-### Kent Notes
-  * TODO:
-    * add arrows for clickable paragraphs
+This project is hosted at: https://kentpmckinney.github.io/epi-pokemon-api
 
-### Winter Notes
+## Working with the Source Code
 
-<!-- ### Description
-_Longer description._ 
+The following instructions explain how to set up a development environment for this project on MacOS. Steps will differ depending on the operating system.
 
-### Instructions
+### Prerequisites
 
-* View the app [here]().
-* Other
-* Instructions
-* Here -->
+The following software must be installed and properly configured on the target machine. 
 
-### Specs
-| Spec | Input | Output |
-| :-------------     | :------------- | :------------- |
-| **Spec Description**  | User Input: | Output: |
-| **Spec Description**  | User Input: | Output: |
-| **Spec Description**  | User Input: | Output: |
-| **Spec Description**  | User Input: | Output: |
-| **Spec Description**  | User Input: | Output: |
-| **Spec Description**  | User Input: | Output: |
+```
+An updated web browser (Internet Explorer is not compatible)
+```
+```
+Node.js
+```
+```
+Git (optional but recommended)
+```
 
-<!-- ### Technologies Used
-* List
-* Them
-* Here
+### Setting up a Development Environment
 
-### Known Bugs
-* None known at this time.
+1. Download a copy of the source code from: https://github.com/kentpmckinney/epi-pokemon-api
+   or clone using the repository link: https://github.com/kentpmckinney/epi-pokemon-api.git
+2. Navigate to the folder location of the source files in Finder or in the Terminal
+3. Run the command `npm install` to download a local cache of the npm packages used by this application
+4. Build the application with the command `npm run build`
+5. Start the application with the command `npm run start`
 
-### Contact
+## Running Automated Tests
 
-Contact me if you have questions or comments at winterrunion@gmail.com -->
+Tests are under ``__tests__``
 
-### License
-_This software is licensed under the MIT license._
+```
+npm run test
+```
 
-_Copyright (c) 2020 **Kent P. McKinney and Winter A. Runion**_
+## Deployment
+
+Run the command 'npm run build' to build a production version of the application under ./build
+## Technologies Used
+
+* JavaScript
+* HTML
+* CSS
+* Jquery
+* Webpack
+* Babel
+
+## Authors
+
+Kent McKinney - [GitHub](https://github.com/kentpmckinney) - [LinkedIn](https://www.linkedin.com/in/kentpmckinney/)
+
+### Copyright &copy; 2020 Kent P. McKinney
+
+## Acknowledgments
+
+https://www.learnhowtoprogram.com/javascript-part-time-react-track/asynchrony-and-apis-continued/dino-ipsum-bike-index-google-maps-one-week-project
